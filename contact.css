@@ -1,0 +1,133 @@
+:root {
+  --deep-red: #380F17;
+  --rich-red: #8F0B1B;
+  --bright-red: #DC2011;
+  --cream: #EFDFC5;
+  --deep-grey: #252B2B;
+  --mid-grey: #4C4F54;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, var(--cream), #fff);
+  color: var(--deep-grey);
+}
+
+.contact-wrapper {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: var(--rich-red);
+  margin: 0.5rem 0;
+}
+
+.subtitle {
+  font-style: italic;
+  color: var(--mid-grey);
+  margin-bottom: 1.5rem;
+}
+
+.btn-home {
+  text-decoration: none;
+  background-color: var(--bright-red);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn-home:hover {
+  background-color: var(--rich-red);
+}
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.info-box {
+  flex: 1;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.info-box h2 {
+  color: var(--deep-red);
+  margin-bottom: 0.8rem;
+}
+
+/* Contact Form */
+.form-section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.form-section h2 {
+  color: var(--deep-red);
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--deep-grey);
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px;
+  background-color: var(--bright-red);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--rich-red);
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--mid-grey);
+  font-size: 0.95rem;
+}

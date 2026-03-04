@@ -1,0 +1,92 @@
+/* Theme Colors */
+:root {
+  --deep-red: #380F17;
+  --rich-red: #8F0B1B;
+  --bright-red: #DC2011;
+  --cream: #EFDFC5;
+  --deep-grey: #252B2B;
+  --mid-grey: #4C4F54;
+}
+
+/* Base Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, var(--cream), #fff);
+  color: var(--deep-grey);
+}
+
+/* Container */
+.about-wrapper {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: var(--rich-red);
+  margin: 0.5rem 0;
+}
+
+.est {
+  font-style: italic;
+  color: var(--mid-grey);
+}
+
+.btn-home {
+  display: inline-block;
+  background-color: var(--bright-red);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-home:hover {
+  background-color: var(--rich-red);
+}
+
+/* About Section */
+.about-section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.about-section p {
+  margin-bottom: 1.2rem;
+}
+
+.about-section strong {
+  color: var(--rich-red);
+}
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--deep-red);
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--mid-grey);
+  font-size: 0.95rem;
+}
